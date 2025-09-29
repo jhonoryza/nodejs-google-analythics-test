@@ -1,9 +1,12 @@
 import {BetaAnalyticsDataClient} from '@google-analytics/data';
 import fs from 'fs';
 import path from 'path';
+import dotenv from 'dotenv';
+
+dotenv.config(); // load .env
 
 // Load credentials (firebase.json)
-const keyFile = path.join(process.cwd(), 'firebase.json');
+const keyFile = path.join(process.cwd(), process.env.GOOGLE_APPLICATION_CREDENTIALS);
 const credentials = JSON.parse(fs.readFileSync(keyFile, 'utf8'));
 
 const client = new BetaAnalyticsDataClient({

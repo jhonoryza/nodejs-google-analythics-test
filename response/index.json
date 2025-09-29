@@ -1,0 +1,31 @@
+{
+    "dimensionHeaders": [
+        {
+            "name": "eventName"
+        },
+        {
+            "name": "customEvent:game_id"
+        }
+    ],
+    "metricHeaders": [
+        {
+            "name": "eventCount",
+            "type": "TYPE_INTEGER"
+        }
+    ],
+    "rows": [],
+    "totals": [],
+    "maximums": [],
+    "minimums": [],
+    "rowCount": 0,
+    "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Etc/GMT-7",
+        "_timeZone": "timeZone"
+    },
+    "propertyQuota": null,
+    "kind": "analyticsData#runReport"
+}

@@ -24,3 +24,14 @@ Filter pageTitle
 node title.js
 ```
 
+See All Dimension
+
+```bash
+node dimension.js
+```
+
+See All Metric
+
+```bash
+node metric.js
+```

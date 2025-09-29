@@ -48,10 +48,13 @@ async function run() {
     ],
     metrics: [
       {name: 'eventCount'},
+      {name: 'activeUsers'},
     ],
     dimensions: [
       {name: 'eventName'},
+      {name: 'date'},
       {name: 'pageTitle'},
+      {name: 'customEvent:game_id'},
     ],
     dimensionFilter: {
       andGroup: {

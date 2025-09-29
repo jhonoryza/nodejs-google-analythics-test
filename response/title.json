@@ -1,0 +1,162 @@
+{
+    "dimensionHeaders": [
+        {
+            "name": "eventName"
+        },
+        {
+            "name": "date"
+        },
+        {
+            "name": "pageTitle"
+        },
+        {
+            "name": "customEvent:game_id"
+        }
+    ],
+    "metricHeaders": [
+        {
+            "name": "eventCount",
+            "type": "TYPE_INTEGER"
+        },
+        {
+            "name": "activeUsers",
+            "type": "TYPE_INTEGER"
+        }
+    ],
+    "rows": [
+        {
+            "dimensionValues": [
+                {
+                    "value": "page_view",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "20250926",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "Fruit Punch | Biblio",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "(not set)",
+                    "oneValue": "value"
+                }
+            ],
+            "metricValues": [
+                {
+                    "value": "20",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "2",
+                    "oneValue": "value"
+                }
+            ]
+        },
+        {
+            "dimensionValues": [
+                {
+                    "value": "level_end",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "20250926",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "Fruit Punch | Biblio",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "(not set)",
+                    "oneValue": "value"
+                }
+            ],
+            "metricValues": [
+                {
+                    "value": "2",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "1",
+                    "oneValue": "value"
+                }
+            ]
+        },
+        {
+            "dimensionValues": [
+                {
+                    "value": "level_start",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "20250926",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "Fruit Punch | Biblio",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "(not set)",
+                    "oneValue": "value"
+                }
+            ],
+            "metricValues": [
+                {
+                    "value": "2",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "1",
+                    "oneValue": "value"
+                }
+            ]
+        },
+        {
+            "dimensionValues": [
+                {
+                    "value": "post_score",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "20250926",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "Fruit Punch | Biblio",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "(not set)",
+                    "oneValue": "value"
+                }
+            ],
+            "metricValues": [
+                {
+                    "value": "1",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "1",
+                    "oneValue": "value"
+                }
+            ]
+        }
+    ],
+    "totals": [],
+    "maximums": [],
+    "minimums": [],
+    "rowCount": 4,
+    "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Etc/GMT-7",
+        "_timeZone": "timeZone"
+    },
+    "propertyQuota": null,
+    "kind": "analyticsData#runReport"
+}

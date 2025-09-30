@@ -1,7 +1,13 @@
 {
     "dimensionHeaders": [
         {
+            "name": "pageTitle"
+        },
+        {
             "name": "eventName"
+        },
+        {
+            "name": "date"
         },
         {
             "name": "customEvent:game_id"
@@ -13,11 +19,90 @@
             "type": "TYPE_INTEGER"
         }
     ],
-    "rows": [],
+    "rows": [
+        {
+            "dimensionValues": [
+                {
+                    "value": "Fruit Punch | Biblio",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "page_view",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "20250929",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "1CTWerH41cUsLZugB3AJcY",
+                    "oneValue": "value"
+                }
+            ],
+            "metricValues": [
+                {
+                    "value": "2",
+                    "oneValue": "value"
+                }
+            ]
+        },
+        {
+            "dimensionValues": [
+                {
+                    "value": "Fruit Punch | Biblio",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "level_end",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "20250929",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "1CTWerH41cUsLZugB3AJcY",
+                    "oneValue": "value"
+                }
+            ],
+            "metricValues": [
+                {
+                    "value": "1",
+                    "oneValue": "value"
+                }
+            ]
+        },
+        {
+            "dimensionValues": [
+                {
+                    "value": "Fruit Punch | Biblio",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "post_score",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "20250929",
+                    "oneValue": "value"
+                },
+                {
+                    "value": "1CTWerH41cUsLZugB3AJcY",
+                    "oneValue": "value"
+                }
+            ],
+            "metricValues": [
+                {
+                    "value": "1",
+                    "oneValue": "value"
+                }
+            ]
+        }
+    ],
     "totals": [],
     "maximums": [],
     "minimums": [],
-    "rowCount": 0,
+    "rowCount": 3,
     "metadata": {
         "samplingMetadatas": [],
         "dataLossFromOtherRow": false,

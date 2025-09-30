@@ -50,7 +50,9 @@ async function run() {
       {name: 'eventCount'},
     ],
     dimensions: [
+      {name: 'pageTitle'},
       {name: 'eventName'},
+      {name: 'date'},
       {name: 'customEvent:game_id'},
     ],
     dimensionFilter: {

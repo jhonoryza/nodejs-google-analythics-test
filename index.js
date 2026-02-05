@@ -22,7 +22,8 @@ async function run() {
   startDate.setDate(today.getDate() - 30);
 
   // Event name filter (multiple OR)
-  const eventNames = ['page_view', 'level_start', 'level_end', 'post_score'];
+  // const eventNames = ['page_view', 'level_start', 'level_end', 'post_score'];
+  const eventNames = ['page_view', 'level_start', 'level_end', 'score'];
   const eventNameFilter = {
     orGroup: {
       expressions: eventNames.map(name => ({
@@ -47,7 +48,8 @@ async function run() {
       },
     ],
     metrics: [
-      {name: 'eventCount'},
+      {name: 'activeUsers'},
+      {name: 'eventCount'}
     ],
     dimensions: [
       {name: 'pageTitle'},
@@ -63,8 +65,9 @@ async function run() {
             filter: {
               fieldName: 'customEvent:game_id',
               stringFilter: {
-                matchType: 'EXACT',
-                value: '1CTWerH41cUsLZugB3AJcY',
+                  matchType: 'EXACT',
+                  value: '1CTi9eYWNHzg3A94vt6TbC', // tada spin danone
+                // value: '1CTWerH41cUsLZugB3AJcY',
               },
             },
           },
@@ -79,4 +82,3 @@ async function run() {
 }
 
 run().catch(console.error);
-

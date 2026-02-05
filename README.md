@@ -35,3 +35,14 @@ See All Metric
 ```bash
 node metric.js
 ```
+
+## Setup
+
+firebase console
+- generate new private key di menu `Service accounts`
+- di menu `Integration` enable `Google Analytics API`
+
+google analytics
+- buat property
+- add email service account sebagai editor 
+- buat custom dimension

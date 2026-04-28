@@ -65,7 +65,8 @@ async function run() {
               fieldName: 'pageTitle',
               stringFilter: {
                 matchType: 'EXACT',
-                value: 'Fruit Punch | Biblio',
+                  // value: 'TADA Spin Danone Web App',
+                  value: 'BAYER Surprise Reward Spin Wheel'
               },
             },
           },
